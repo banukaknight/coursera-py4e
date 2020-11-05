@@ -1,0 +1,7 @@
+11917550_only_palindromes.txt: created at: 2020-11-04 20:31:12.600574
+___Numbers for which Square is Palindrome.
+-121 squared is: 14641
+0 squared is: 0
+1 squared is: 1
+111 squared is: 12321
+-2 squared is: 4

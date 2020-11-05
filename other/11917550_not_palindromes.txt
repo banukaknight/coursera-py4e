@@ -1,0 +1,7 @@
+11917550_not_palindromes.txt: created at: 2020-11-04 20:31:12.600574
+___Numbers for which Square is not Palindrome.
+55 squared is: 3025
+77 squared is: 5929
+-9 squared is: 81
+1000 squared is: 1000000
+1010 squared is: 1020100
