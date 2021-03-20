@@ -1,0 +1,21 @@
+
+.mythumb{
+  width: 95%; height:20vw; max-height:100px; 
+}
+
+#card1{
+  background-image: url('./assets/bg1.png');
+}
+
+#card2{
+  background-image: url('./assets/bg2.jpg');
+}
+
+#card3{
+  background-image: url('./assets/bg3.jpg');
+}
+
+ion-alert
+{
+ --background: #95cfff !important;
+}
