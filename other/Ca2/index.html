@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Fiesty Fried Chicken</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+
+</head>
+
+<body>
+  <ion-app>
+    <ion-header>
+
+      <ion-toolbar color="primary">
+
+        <ion-buttons slot="end">
+          <ion-button id="btn_home">
+            <ion-icon slot="icon-only" name="home-outline"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+
+
+
+        <ion-title class="ion-text-center">
+          <img src="./assets/FFC-logo.png" height="40px">
+          FFC Restaurant
+        </ion-title>
+
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size-md="6" offset-md="3">
+
+            <ion-card id="card1">
+              <ion-card-header>
+                
+          <img src="./assets/FFC-logo.png" height="60px" style="float:right;">
+                <ion-card-title color="dark">Fiesty Fried Chicken</ion-card-title>
+                <ion-card-subtitle>Restaurent Billing</ion-card-subtitle>
+              </ion-card-header>
+              <ion-card-content>
+
+                <!-- start of items menu-->
+                <ion-item>
+                  <ion-grid>
+                    <ion-row>
+
+                      <ion-col size="3">
+                        <ion-thumbnail class="mythumb">
+                          <img src="./assets/m01.jpg">
+                        </ion-thumbnail>
+                      </ion-col>
+
+                      <ion-col>
+                        <ion-row>
+                          <ion-label color="primary">Original Chicken </ion-label>
+                          &nbsp;&nbsp;
+                          <ion-label color="danger"> Cost: $3</ion-label>
+                        </ion-row>
+
+                        <ion-row>
+                          <ion-input clear-input placeholder="Potions" id="inp_m01"></ion-input>
+                          <ion-button id="btn_m01">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add
+                          </ion-button>
+                        </ion-row>
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-grid>
+                </ion-item>
+                <!-- end of one item-->
+                <ion-item>
+                  <ion-grid>
+                    <ion-row>
+
+                      <ion-col size="3">
+                        <ion-thumbnail class="mythumb">
+                          <img src="./assets/m02.jpg">
+                        </ion-thumbnail>
+                      </ion-col>
+
+                      <ion-col>
+                        <ion-row>
+                          <ion-label color="primary">Sweet & Spicy </ion-label>
+                          &nbsp;&nbsp;
+                          <ion-label color="danger"> Cost: $5</ion-label>
+                        </ion-row>
+
+                        <ion-row>
+                          <ion-input clear-input placeholder="Potions" id="inp_m02"></ion-input>
+                          <ion-button id="btn_m02">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add
+                          </ion-button>
+                        </ion-row>
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-grid>
+                </ion-item>
+                <!-- end of one item-->
+                <ion-item>
+                  <ion-grid>
+                    <ion-row>
+
+                      <ion-col size="3">
+                        <ion-thumbnail class="mythumb">
+                          <img src="./assets/m03.jpg">
+                        </ion-thumbnail>
+                      </ion-col>
+
+                      <ion-col>
+                        <ion-row>
+                          <ion-label color="primary">Garlic Chicken </ion-label>
+                          &nbsp;&nbsp;
+                          <ion-label color="danger"> Cost: $4</ion-label>
+                        </ion-row>
+
+                        <ion-row>
+                          <ion-input clear-input placeholder="Potions" id="inp_m03"></ion-input>
+                          <ion-button id="btn_m03">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add
+                          </ion-button>
+                        </ion-row>
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-grid>
+                </ion-item>
+                <!-- end of one item-->
+                <ion-item>
+                  <ion-grid>
+                    <ion-row>
+
+                      <ion-col size="3">
+                        <ion-thumbnail class="mythumb">
+                          <img src="./assets/m04.jpg">
+                        </ion-thumbnail>
+                      </ion-col>
+
+                      <ion-col>
+                        <ion-row>
+                          <ion-label color="primary">Freakin Hot </ion-label>
+                          &nbsp;&nbsp;
+                          <ion-label color="danger"> Cost: $2</ion-label>
+                        </ion-row>
+
+                        <ion-row>
+                          <ion-input clear-input placeholder="Potions" id="inp_m04"></ion-input>
+                          <ion-button id="btn_m04">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add
+                          </ion-button>
+                        </ion-row>
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-grid>
+                </ion-item>
+                <!-- end of one item-->
+                <ion-item>
+                  <ion-grid>
+                    <ion-row>
+
+                      <ion-col size="3">
+                        <ion-thumbnail class="mythumb">
+                          <img src="./assets/m05.jpg">
+                        </ion-thumbnail>
+                      </ion-col>
+
+                      <ion-col>
+                        <ion-row>
+                          <ion-label color="primary">Snowing Vegetable </ion-label>
+                          &nbsp;&nbsp;
+                          <ion-label color="danger"> Cost: $4</ion-label>
+                        </ion-row>
+
+                        <ion-row>
+                          <ion-input clear-input placeholder="Potions" id="inp_m05"></ion-input>
+                          <ion-button id="btn_m05">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add
+                          </ion-button>
+                        </ion-row>
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-grid>
+                </ion-item>
+                <!-- end of one item-->
+                <ion-item>
+                  <ion-grid>
+                    <ion-row>
+
+                      <ion-col size="3">
+                        <ion-thumbnail class="mythumb">
+                          <img src="./assets/m06.jpg">
+                        </ion-thumbnail>
+                      </ion-col>
+
+                      <ion-col>
+                        <ion-row>
+                          <ion-label color="primary">Lemon Chicken </ion-label>
+                          &nbsp;&nbsp;
+                          <ion-label color="danger"> Cost: $6</ion-label>
+                        </ion-row>
+
+                        <ion-row>
+                          <ion-input clear-input placeholder="Potions" id="inp_m06"></ion-input>
+                          <ion-button id="btn_m06">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add
+                          </ion-button>
+                        </ion-row>
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-grid>
+                </ion-item>
+                <!-- end of one item-->
+
+
+                <div margin-vertical class="ion-text-right">
+                  <ion-button fill="solid" color="danger" id="btn_clear">
+                    <ion-icon slot="start" name="close-circle-outline"> </ion-icon>
+                    Clear Fields
+                  </ion-button>
+                </div>
+
+
+            <ion-list id="item_list"> </ion-list>
+                
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row>
+          <ion-col size-md="6" offset-md="3">
+
+            <ion-card id="card3">
+              <ion-card-content>
+                <ion-row>
+
+                  <ion-text color="primary">
+                    Total Potions: <spn id="tot_potion"></spn>
+                  </ion-text>
+                </ion-row>
+                <ion-row>
+                   <ion-text color="secondary">
+                     Total Cost: $<spn id="tot_cost"></spn>
+                  </ion-text>
+                </ion-row>
+
+                <ion-row>
+                  <ion-item>
+                    <ion-label position="floating">Paid Cash:</ion-label>
+                    <ion-input id="cash_amt"></ion-input>
+                  </ion-item>
+                </ion-row>
+
+                <ion-row>
+                  <ion-text color="danger">
+                                       Change Given: $<spn id="change_amt"></spn>
+                  </ion-text>
+                </ion-row>
+
+               
+                  <div margin-vertical class="ion-text-right">
+                    <ion-button fill="outline" color="danger" id="btn_cancel">
+                      <ion-icon slot="start" name="close-circle-outline"> </ion-icon>
+                      Cancel
+                    </ion-button>
+
+                    <ion-button id="btn_calc">
+                      <ion-icon slot="start" color="success" name="checkmark-circle-outline"></ion-icon>
+                      Calculate
+                    </ion-button>
+                  </div>
+                
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+
+      <div margin-vertical class="ion-float-left">
+        <ion-note color="primary">
+          <spn id="todaydate"></spn>
+        </ion-note>
+      </div>
+      <div margin-vertical class="ion-float-right ion-text-capitalize">
+        <ion-note color="danger">visit us Again!</ion-note>
+      </div>
+<br><br>
+
+    </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="secondary">
+    <ion-title>Developed by: Banuka</ion-title>
+  </ion-toolbar>
+</ion-footer>
+    <ion-alert-controller></ion-alert-controller>
+
+    
+  </ion-app>
+
+  <br><br><br>
+  <script src="./app.js"></script>
+</body>
+
+</html>
